@@ -14,6 +14,7 @@ alias l='ls'
 alias ios="cd ~/Dropbox/Programming/iOS\ Development"
 
 alias untar="tar -xvf"
+alias tarr="tar -cvf"
 
 # Print function to CETS Office
 function seasprint {
