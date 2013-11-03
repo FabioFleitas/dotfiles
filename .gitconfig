@@ -1,0 +1,14 @@
+[user]
+	name = Fabio Fleitas
+	email = cubanfabio@gmail.com
+
+[color]
+	ui = true
+
+[alias]
+	a = add
+	c = commit -m
+	s = status
+
+[push]
+	default = simple
