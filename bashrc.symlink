@@ -1,0 +1,21 @@
+# Tell ls to be colorful
+export CLICOLOR=1
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+
+# Tell grep to highlight matches
+export GREP_OPTIONS='--color=auto'
+
+# ls aliases
+alias la='ls -A'
+alias ..='cd ..'
+alias ll='ls -lA'
+alias l='ls'
+
+# tar aliases
+alias untar="tar -xvf"
+alias tarr="tar -cvf"
+
+# Import .bashrc_custom
+if [ -f ~/.bashrc_custom ]; then
+	source ~/.bashrc_custom
+fi
