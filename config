@@ -1,3 +1,8 @@
 Host penn
 Hostname eniac.seas.upenn.edu
 User fleitasf
+
+Host aws
+Hostname ec2-54-201-54-128.us-west-2.compute.amazonaws.com
+User ubuntu
+IdentityFile ~/.ssh/cis191.pem
