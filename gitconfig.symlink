@@ -10,7 +10,5 @@
 	c = commit -m
 	s = status
 
-[push]
-	default = simple
 [core]
 	excludesfiles = ~/.gitignore_global
