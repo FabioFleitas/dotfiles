@@ -1,6 +1,8 @@
 set nocompatible
 set tabstop=2
 set shiftwidth=2
+set autoindent
+set cindent
 set number
 set ls=2
 set ruler
