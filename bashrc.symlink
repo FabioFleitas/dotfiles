@@ -25,3 +25,12 @@ alias functions='grep "^function" ~/.bashrc_custom ~/.bashrc'
 if [ -f ~/.bashrc_custom ]; then
 	source ~/.bashrc_custom
 fi
+
+# Adding /usr/local/bin first for Homebrew
+export PATH="/usr/local/bin:$PATH"
+
+# PostgreSQL
+export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
