@@ -34,3 +34,12 @@ export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Add App Engine to $PYTHONPATH
+export PYTHONPATH="$PYTHONPATH:/usr/local/google_appengine:/usr/local/google_appengine/lib/django-1.5:/usr/local/google_appengine/lib/yaml/lib"
+
+# The next line updates PATH for the Google Cloud SDK.
+source /usr/local/google-cloud-sdk/path.bash.inc
+
+# The next line enables bash completion for gcloud.
+source /usr/local/google-cloud-sdk/completion.bash.inc
