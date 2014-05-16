@@ -9,8 +9,13 @@
 	a = add
 	c = commit -m
 	s = status
+  br = branch
+  ch = checkout
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 
 
 [core]
 	excludesfiles = ~/.gitignore_global
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
