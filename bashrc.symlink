@@ -48,3 +48,8 @@ source /usr/local/google-cloud-sdk/completion.bash.inc
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Dropbox/Programming/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
+
+# git autocomplete
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
